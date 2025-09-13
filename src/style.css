@@ -23,7 +23,6 @@ body {
     max-width: 400px;
     padding: 10px;
 }
-
 h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -71,6 +70,7 @@ h1 {
 
 .todo-item {
     background: #f0f4ff;
+    height: 10%;
     padding: 10px 15px;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -100,7 +100,11 @@ h1 {
 
 @media(max-width: 450px){
     .container {
-        padding: 20px;
+        width: 90%;
+    }
+
+    #todo-input {
+        width: 20px;
     }
 
     #add-btn {
